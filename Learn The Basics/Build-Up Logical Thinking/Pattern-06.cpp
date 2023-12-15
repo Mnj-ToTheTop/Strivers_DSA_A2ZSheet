@@ -1,3 +1,11 @@
+//PATTERN: N=3
+// 1 2 3
+// 1 2
+// 1
+
+#include <iostream>
+using namespace std;
+
 void nNumberTriangle(int n) {
     // Write your code here.
     for(int k = n; k>=1; k--)
@@ -10,7 +18,10 @@ void nNumberTriangle(int n) {
 	}
 }
 
-//PATTERN: N=3
-// 1 2 3
-// 1 2
-// 1
+
+int main()
+{
+	int x;
+	cin>>x;
+	nNumberTriangle(x);
+}
