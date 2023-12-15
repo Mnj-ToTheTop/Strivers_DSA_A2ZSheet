@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void nTriangle(int n) {
 	// Write your code here
 	for(int k = 1; k<=n; k++)
@@ -10,6 +13,12 @@ void nTriangle(int n) {
 	}
 }
 
+int main()
+{
+	int x;
+	cin>>x;
+	nTriangle(x);
+}
 
 //n=5
 //  1
