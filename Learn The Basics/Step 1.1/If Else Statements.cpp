@@ -1,3 +1,7 @@
+#include <iostream>
+using namespace std;
+
+
 string compareIfElse(int a, int b) {
 	// Write your code here
 	if (a<b)
@@ -12,4 +16,13 @@ string compareIfElse(int a, int b) {
 	{
 		return "equal";
 	}
+}
+
+int main()
+{
+	int x,y;
+	cin>>x;
+	cin>>y;
+	string res = compareIfElse(x,y);
+	cout<<res;
 }
