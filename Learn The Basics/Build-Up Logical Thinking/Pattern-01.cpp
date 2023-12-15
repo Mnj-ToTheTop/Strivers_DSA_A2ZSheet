@@ -2,6 +2,8 @@
 //N=3 =>  * * *
 //        * * *
 //        * * *
+#include <iostream>
+using namespace std;
 
 void nForest(int n)
 {
@@ -13,4 +15,11 @@ void nForest(int n)
 		}
 		cout<<"\n";
 	}
+}
+
+int main()
+{
+	int x;
+	cin>>x;
+	nForest(x);
 }
