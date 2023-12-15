@@ -1,17 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-	String x;
-	cin>>x;
-	int size;
-	size = dataTypes(x);
-	cout<<size;
-}
 
-
-int dataTypes(String type) 
+int dataTypes(string type) 
 {
 	if (type == "Integer")
 	{
@@ -37,4 +28,14 @@ int dataTypes(String type)
 	{
 		return -1;
 	}
+}
+
+
+int main()
+{
+	string x;
+	cin>>x;
+	int size;
+	size = dataTypes(x);
+	cout<<size;
 }
