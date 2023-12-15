@@ -1,4 +1,17 @@
-int dataTypes(string type) 
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	String x;
+	cin>>x;
+	int size;
+	size = dataTypes(x);
+	cout<<size;
+}
+
+
+int dataTypes(String type) 
 {
 	if (type == "Integer")
 	{
