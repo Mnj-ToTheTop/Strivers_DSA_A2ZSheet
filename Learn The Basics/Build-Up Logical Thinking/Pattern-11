@@ -1,0 +1,36 @@
+void nBinaryTriangle(int n) {
+    // Write your code here.
+    int bin = 1;
+    int x;
+    for (int i = 1; i<=n; i++)
+    {
+        x = bin;
+        for(int k=1; k<=i; k++)
+        {
+            cout<<bin<<" ";
+            if(bin==1)
+            {
+                bin = 0;
+            }
+            else
+            {
+                bin = 1;
+            }
+        }
+        if(x==0)
+        {
+            bin =1;
+        }
+        else
+        {
+            bin = 0;
+        }
+        cout<<"\n";
+    }
+}
+
+
+//PATTERN: n=3
+// 1
+// 0 1
+// 1 0 1
